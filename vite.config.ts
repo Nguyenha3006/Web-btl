@@ -4,6 +4,10 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  export default defineConfig({
+  base: '/Web-btl/', // Thêm dòng này để định tuyến đúng đường dẫn trên GitHub Pages
+  plugins: [...]
+})
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
