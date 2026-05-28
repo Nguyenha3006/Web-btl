@@ -1,0 +1,6 @@
+{
+  "name": "HustMemo",
+  "description": "Nền tảng thẻ ghi nhớ (Flashcard) kết hợp thuật toán lặp lại ngắt quãng (Spaced Repetition) thông minh dành cho sinh viên.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
